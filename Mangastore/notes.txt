@@ -1,0 +1,7 @@
+products=manga////database table
+
+featured id used in all 8 manga(top ranked and popular)
+
+added new column in manga table. Manga_image
+
+dropped or_de_id from manga table.

@@ -1,0 +1,17 @@
+shop now buttons connect to shop page
+
+buy now buttons and manga images connect to single_product page
+
+make payment system
+
+collect order list and connect to it from user account and checkout
+
+make things dynamic and store data
+
+admin and customer login
+
+categories division
+
+implement user rating system and store them
+
+store comments and give admin access to keep or remove it

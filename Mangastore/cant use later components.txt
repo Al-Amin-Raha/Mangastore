@@ -1,0 +1,58 @@
+//5star ratings input
+<!-- Rating input -->
+<div class="rating-input my-3">
+  <span>Rate this manga:</span>
+  <input type="radio" name="rating" id="star5" value="5" /><label for="star5"></label>
+  <input type="radio" name="rating" id="star4" value="4" /><label for="star4"></label>
+  <input type="radio" name="rating" id="star3" value="3" /><label for="star3"></label>
+  <input type="radio" name="rating" id="star2" value="2" /><label for="star2"></label>
+  <input type="radio" name="rating" id="star1" value="1" /><label for="star1"></label>
+  <input type="radio" name="rating" id="star0" value="0" /><label for="star0"></label>
+</div>
+
+
+/* Rating styles */
+.rating-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rating-input span {
+  margin-right: 1rem;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+label:before {
+  content: "\2605"; /* Unicode character for a star */
+  display: inline-block;
+  margin: 0.25rem;
+  font-size: 2rem;
+}
+
+input[type="radio"]:checked+label:before {
+  color: orangered;
+}
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var ratingInputs = document.querySelectorAll('input[name="rating"]');
+    var selectedRating;
+
+    ratingInputs.forEach(function (input) {
+      input.addEventListener("change", function () {
+        selectedRating = this.value;
+        console.log("Selected Rating: " + selectedRating);
+      });
+    });
+  });
+</script>
