@@ -1,4 +1,3 @@
-markdown
 # MangaStore
 
 MangaStore is a web-based platform designed for manga enthusiasts, providing a comprehensive solution for browsing, purchasing, and engaging with manga content. Built with PHP, HTML5, and CSS, it offers a user-friendly interface for customers and robust management tools for administrators.
