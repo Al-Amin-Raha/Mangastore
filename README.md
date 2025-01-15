@@ -23,10 +23,11 @@ MangaStore is a web-based platform designed for manga enthusiasts, providing a c
 
 
    git clone https://github.com/rahahq/Mangastore.git
+   
    cd Mangastore
 
 
-2. **Set Up the Database**:
+3. **Set Up the Database**:
 
    - Create a MySQL database named `mangastore`.
    - Import the provided SQL file to set up the necessary tables:
@@ -35,7 +36,7 @@ MangaStore is a web-based platform designed for manga enthusiasts, providing a c
      mysql -u your_username -p mangastore < mangastore.sql
     
 
-3. **Configure the Application**:
+4. **Configure the Application**:
 
    - Update the `config.php` file with your database credentials:
 
@@ -48,7 +49,7 @@ MangaStore is a web-based platform designed for manga enthusiasts, providing a c
      ?>
   
 
-4. **Deploy the Application**:
+5. **Deploy the Application**:
 
    - Ensure your server supports PHP and has access to the configured MySQL database.
    - Place the application files in your server's web directory.
